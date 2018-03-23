@@ -2,6 +2,7 @@
 
 using namespace std;
 
+
 void throwexception()
 {
   bool error1=false;

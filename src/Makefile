@@ -3,5 +3,5 @@ CC=g++
 srcdir=src
 CFLAGS=-g -I/$(srcdir)
 
-exception: exception.o
+exception: exceptionstd.o
 	$(CC) -o exception exception.o $(CFLAGS)

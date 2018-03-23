@@ -3,7 +3,7 @@
 using namespace std;
 
 class allocme{
-  public allocme {
+  public allocme() {
     obj = new char(999999999999);
     delete obj;
   }
